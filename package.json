@@ -1,0 +1,33 @@
+{
+  "name": "winston-spark",
+  "version": "1.0.0-beta",
+  "description": "Cisco Spark transport for Winston",
+  "homepage": "https://github.com/Joeworks/winston-spark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joeworks/winston-spark"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "author": "Joseph Lee <joselee2@cisco.com>",
+  "keywords": [
+    "log",
+    "logging",
+    "logs",
+    "sysadmin",
+    "tcp",
+    "tools",
+    "transport",
+    "winston"
+  ],
+  "files": [
+    "src"
+  ],
+  "bugs": {
+    "url": "https://github.com/Joeworks/winston-spark/issues"
+  },
+  "dependencies": {
+    "request": "^2.81.0",
+    "winston": "^2.3.1"
+  }
+}
