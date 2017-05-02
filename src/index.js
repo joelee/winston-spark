@@ -29,7 +29,7 @@ SparkLogger.prototype.log = function (level, msg, meta, callback) {
     url: sparkUrlEndpoint,
     headers: {
       Authorization: 'Bearer ' + this.accessToken,
-      'User-Agent': 'winston-spark/1.0 (https://github.com/Joeworks/winston-spark)'
+      'User-Agent': 'winston-spark/1.0 (https://github.com/joelee/winston-spark)'
     },
     form: {
       'roomId': this.sparkRoom,
