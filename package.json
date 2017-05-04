@@ -1,6 +1,6 @@
 {
   "name": "winston-spark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cisco Spark transport for Winston",
   "homepage": "https://github.com/joelee/winston-spark",
   "repository": {
@@ -11,6 +11,9 @@
   "main": "src/index.js",
   "author": "Joseph Lee <joselee2@cisco.com> (https://uk.linkedin.com/in/joeworks)",
   "keywords": [
+    "spark",
+    "ciscospark",
+    "cisco",
     "log",
     "logging",
     "logs",
@@ -27,7 +30,7 @@
     "url": "https://github.com/joelee/winston-spark/issues"
   },
   "dependencies": {
-    "request": "^2.81.0",
+    "node-ciscospark": "^0.9.7",
     "winston": "^2.3.1"
   }
 }
